@@ -7,6 +7,12 @@ public class User {
 	public String getName() {
 		return name;
 	}
+	public User(String name, Long mobileNumber, byte age) {
+		super();
+		this.name = name;
+		this.mobileNumber = mobileNumber;
+		this.age = age;
+	}
 	public void setName(String name) {
 		this.name = name;
 	}
